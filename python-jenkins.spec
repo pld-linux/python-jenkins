@@ -64,7 +64,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc COPYING doc/build/html
-%{py_sitescriptdir}/jenkins/__init__.py[co]
+%dir %{py_sitescriptdir}/jenkins
+%{py_sitescriptdir}/jenkins/*.py[co]
 %{py_sitescriptdir}/python_jenkins-%{version}-py*.egg-info
 # this should be .3?
 %{_mandir}/man1/pythonjenkins.1*
