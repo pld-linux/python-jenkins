@@ -7,7 +7,7 @@
 Summary:	Python bindings for the remote Jenkins API
 Name:		python-%{module}
 Version:	0.2.1
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Libraries
 Source0:	https://launchpad.net/python-jenkins/0.2/%{version}/+download/%{name}-%{version}.tar.gz
