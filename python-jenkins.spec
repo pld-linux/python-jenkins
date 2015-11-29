@@ -14,7 +14,7 @@ Source0:	https://launchpad.net/python-jenkins/0.2/%{version}/+download/%{name}-%
 # Source0-md5:	4e9ff3c2e6b0ae8da59a6c46080df898
 URL:		http://launchpad.net/python-jenkins
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 %if %{with tests}
 BuildRequires:	python-mock
 BuildRequires:	python-nose
